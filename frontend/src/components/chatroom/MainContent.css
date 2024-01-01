@@ -1,0 +1,19 @@
+
+.root{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.child-1{
+    flex : 2.2; 
+    background-color: antiquewhite;
+    overflow: scroll;
+}
+
+.child-2{
+    flex : 0.8;
+    background-color: antiquewhite;
+    color: black;
+    overflow: scroll;
+}
