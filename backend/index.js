@@ -9,7 +9,6 @@ const JWT = require("jsonwebtoken")
 const JWT_SECRET = "@Harsh12345";
 
 const PORT = process.env.PORT || 8000;
-const URL = process.env.URL;
 
 server.use(cors());
 server.use(bodyparser.urlencoded({ extended: false }))
